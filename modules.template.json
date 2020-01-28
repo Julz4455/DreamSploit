@@ -1,0 +1,8 @@
+{
+  "modules": [
+    {
+      "name": "command/to/call",
+      "path": "/path/to/module (probably modules/module-name.py)"
+    }
+  ]
+}
