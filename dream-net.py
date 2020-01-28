@@ -1,9 +1,6 @@
 import os, sys, json, random
 from termcolor import colored
 
-if os.getuid() != 0:
-    print("Must run as root")
-    sys.exit(1)
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
