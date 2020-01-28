@@ -22,6 +22,21 @@ Plus, with a modules.json file, you can turn on and turn off modules at your own
 DreamSploit is easy, custom, and as always, not for educational purposes only.
 So make the switch to DreamSploit. Make the switch to the Dream Team.
 
+### Module Creation
+
+1. First create a python file with a name of your choosing.
+2. Next create an entry in modules.json (or modules3.json if using Python 3) based on modules.template.json or the example below:
+```json
+{
+  "name": "name of module",
+  "path": "/path/to/module",
+  "color": "termcolor.colored color"
+}
+```
+  - There is no default color.  Color is mandatory
+  - The name is the name that will be called in the command prompt (Example: "name": "net/scan/port" => "use net/scan/port")
+3. Run the module in the command prompt with the prefix: "use"
+4. Profit!
 # DreamSploit
 ## By DreamSec
 #### Stable v1.0.0 Coming August 2020
