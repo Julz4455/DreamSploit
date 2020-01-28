@@ -34,7 +34,8 @@ So make the switch to DreamSploit. Make the switch to the Dream Team.
 }
 ```
   - There is no default color.  Color is mandatory
-  - The name is the name that will be called in the command prompt (Example: "name": "net/scan/port" => "use net/scan/port")
+  - The name is the name that will be called in the command prompt
+    - Example: `{"name": "net/scan/port" ...}` transforms to `use net/scan/port` in the console
 3. Run the module in the command prompt with the prefix: "use"
 4. Profit!
 # DreamSploit
