@@ -1,7 +1,7 @@
 # DreamSploit
 ## DreamSec Exploit Console
 #### Alpha v1.0.0
-
+[![Run on Repl.it](https://repl.it/badge/github/Julz4455/DreamSploit)](https://repl.it/github/Julz4455/DreamSploit)
 Love metasploit but want to use python more than ruby? Well, you're in luck!
 DreamSploit is:
 - Metasploit Inspired
