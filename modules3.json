@@ -1,0 +1,12 @@
+{
+  "modules": [
+    {
+      "name": "network/scan/port",
+      "path": "modules/port-scanner.py"
+    },
+    {
+      "name": "social/mail/bomb",
+      "path": "modules/mail-bomb.py"
+    }
+  ]
+}

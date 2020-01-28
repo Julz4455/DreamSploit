@@ -1,5 +1,7 @@
 {
   "commands": [
-    "ls"
+    "ls",
+    "ls -a",
+    "ls -aL"
   ]
 }

@@ -40,7 +40,7 @@ info = """
 """
 print(info)
 didCommand = False
-with open('modules.json') as json_file:
+with open('modules3.json') as json_file:
     data = json.load(json_file)
     if 'modules' in data:
         modules = data['modules']
@@ -54,7 +54,7 @@ with open('allowed-linux.json') as json_file:
         print('Looks like your allowed-linux.json file is deformed. Fix it before using DreamSploit')
 while True:
     didCommand = False
-    rawCommand = raw_input('dream> ')
+    rawCommand = input('dream> ')
     dreamCommand = rawCommand.lower()
     commandList = open('modules.json')
     if dreamCommand == "help":
