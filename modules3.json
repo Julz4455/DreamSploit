@@ -2,11 +2,11 @@
   "modules": [
     {
       "name": "network/scan/port",
-      "path": "modules/port-scanner.py"
+      "path": "modules/port-scanner3.py"
     },
     {
       "name": "social/mail/bomb",
-      "path": "modules/mail-bomb.py"
+      "path": "modules/mail-bomb3.py"
     }
   ]
 }
